@@ -204,13 +204,13 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="post-form-area contact-form pt-125">
-                    <form data-netlify="true" name="main" method="POST">
+                    <form data-netlify="true" name="main" method="POST" class="subscribe-form">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="input-box">
                                     <h5>Your Full Name</h5>
                                     <div class="input-text mb-35">
-                                        <input type="text" class="form-control" placeholder="Full Name Here">
+                                        <input type="text" class="form-control" placeholder="Full Name Here" name="name">
                                     </div>
                                 </div>
                             </div>
@@ -218,7 +218,7 @@
                                 <div class="input-box mb-35">
                                     <h5>Your Email Address</h5>
                                     <div class="input-text input-mail">
-                                        <input type="text" class="form-control" placeholder="Email Here">
+                                        <input type="text" class="form-control" placeholder="Email Here" name="email">
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@
                                 <div class="input-box mb-35">
                                     <h5>Phone Number</h5>
                                     <div class="input-text input-phone">
-                                        <input type="text" class="form-control" placeholder="Write Your Phone Number">
+                                        <input type="text" class="form-control" placeholder="Write Your Phone Number" name="number">
                                     </div>
                                 </div>
                             </div>
@@ -234,7 +234,7 @@
                                 <div class="input-box mb-35">
                                     <h5>Subject</h5>
                                     <div class="input-text input-sub">
-                                        <input type="text" class="form-control" placeholder="I Would LIke To">
+                                        <input type="text" class="form-control" placeholder="I Would LIke To name="subject">
                                     </div>
                                 </div>
                             </div>
@@ -242,14 +242,14 @@
                                 <div class="input-box mb-35">
                                     <h5>Leave A Message</h5>
                                     <div class="input-text input-message">
-                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Write Your Message" name="message"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-12 col-lg-12 col-md-6">
                                 <div class="msg-btn text-md-center">
-                                    <a class="theme_btn theme_btn_bg" href="#">send  message <i
-                                            class="far fa-arrow-right"></i></a>
+                                    <button class="theme_btn theme_btn_bg" href="#">send  message <i
+                                            class="far fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -305,7 +305,7 @@
                             <p class="mb-30">Interested i recieving updates about our product offerings? Leave us your email!</p>
                                 <div class="subscribe-content foter-subscribe">
                                     <form class="subscribe-form" data-netlify="true" name="email-only" method="POST">
-                                        <input class="form-control" type="text" placeholder="Enter Your Email">
+                                        <input class="form-control" type="text" placeholder="Enter Your Email"  name="email-address">
                                         <button><i class="far fa-arrow-right"></i></button>
                                     </form>
                                 </div>
